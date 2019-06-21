@@ -1,0 +1,89 @@
+[2019-06-21T13:43:32,186][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/mnt/c/Users/zoldham/Documents/logstash-6.7.1/data/queue"}
+[2019-06-21T13:43:32,209][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/mnt/c/Users/zoldham/Documents/logstash-6.7.1/data/dead_letter_queue"}
+[2019-06-21T13:43:33,150][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-06-21T13:43:33,160][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.7.1"}
+[2019-06-21T13:43:33,197][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"84e0d3d3-bd3d-4ac0-abce-a3364ee4f405", :path=>"/mnt/c/Users/zoldham/Documents/logstash-6.7.1/data/uuid"}
+[2019-06-21T13:43:36,010][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2019-06-21T13:43:36,378][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4103d30d run>"}
+[2019-06-21T13:43:36,522][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2019-06-21T13:43:37,109][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2019-06-21T13:44:00,693][ERROR][logstash.inputs.jdbc     ] Failed to load /mnt/c/Program Files/CData/CData JDBC Driver for Cassandra 2019/lib/cdata.jdbc.cassandra.jar {:exception=>#<TypeError: failed to coerce jdk.internal.loader.ClassLoaders$AppClassLoader to java.net.URLClassLoader>}
+[2019-06-21T13:44:05,600][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2019-06-21T13:44:06,618][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2019-06-21T13:44:06,737][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2019-06-21T14:00:17,874][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-06-21T14:00:17,891][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.7.1"}
+[2019-06-21T14:00:20,505][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2019-06-21T14:00:20,921][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x5a0bbce9 run>"}
+[2019-06-21T14:00:21,137][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2019-06-21T14:00:21,809][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2019-06-21T14:01:06,130][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2019-06-21T14:01:06,311][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2019-06-21T14:01:06,441][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2019-06-21T14:08:48,936][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-06-21T14:08:48,954][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.7.1"}
+[2019-06-21T14:08:51,807][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2019-06-21T14:08:52,218][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4c4081bd run>"}
+[2019-06-21T14:08:52,280][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2019-06-21T14:08:52,873][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2019-06-21T14:09:01,171][INFO ][com.datastax.driver.core ] DataStax Java driver 3.6.0 for Apache Cassandra
+[2019-06-21T14:09:01,178][INFO ][com.datastax.driver.core.GuavaCompatibility] Detected Guava >= 19 in the classpath, using modern compatibility layer
+[2019-06-21T14:09:01,371][INFO ][com.datastax.driver.core.ClockFactory] Using native clock to generate timestamps.
+[2019-06-21T14:09:01,485][INFO ][com.datastax.driver.core.NettyUtil] Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+[2019-06-21T14:09:06,675][ERROR][logstash.inputs.jdbc     ] Unable to connect to database. Tried 1 times {:error_message=>"Java::ComDatastaxDriverCoreExceptions::NoHostAvailableException: All host(s) tried for query failed (tried: dev-cassandra.ksg.int/172.30.100.205:9160 (com.datastax.driver.core.exceptions.TransportException: [dev-cassandra.ksg.int/172.30.100.205:9160] Cannot connect))"}
+[2019-06-21T14:09:35,933][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2019-06-21T14:09:37,217][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2019-06-21T14:09:37,280][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2019-06-21T14:11:11,056][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-06-21T14:11:11,071][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.7.1"}
+[2019-06-21T14:11:13,574][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2019-06-21T14:11:14,136][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x1aaa4eea sleep>"}
+[2019-06-21T14:11:14,199][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2019-06-21T14:11:15,135][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2019-06-21T14:12:01,008][INFO ][com.datastax.driver.core ] DataStax Java driver 3.6.0 for Apache Cassandra
+[2019-06-21T14:12:01,014][INFO ][com.datastax.driver.core.GuavaCompatibility] Detected Guava >= 19 in the classpath, using modern compatibility layer
+[2019-06-21T14:12:01,058][INFO ][com.datastax.driver.core.ClockFactory] Using native clock to generate timestamps.
+[2019-06-21T14:12:01,267][INFO ][com.datastax.driver.core.NettyUtil] Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+[2019-06-21T14:12:01,585][ERROR][logstash.inputs.jdbc     ] Unable to connect to database. Tried 1 times {:error_message=>"Java::ComDatastaxDriverCoreExceptions::NoHostAvailableException: All host(s) tried for query failed (tried: dev-cassandra.ksg.int/172.30.100.206:9160 (com.datastax.driver.core.exceptions.TransportException: [dev-cassandra.ksg.int/172.30.100.206:9160] Channel has been closed))"}
+[2019-06-21T14:13:00,355][INFO ][com.datastax.driver.core.ClockFactory] Using native clock to generate timestamps.
+[2019-06-21T14:13:00,385][ERROR][logstash.inputs.jdbc     ] Unable to connect to database. Tried 1 times {:error_message=>"Java::ComDatastaxDriverCoreExceptions::NoHostAvailableException: All host(s) tried for query failed (tried: dev-cassandra.ksg.int/172.30.100.205:9160 (com.datastax.driver.core.exceptions.TransportException: [dev-cassandra.ksg.int/172.30.100.205:9160] Channel has been closed))"}
+[2019-06-21T14:13:39,670][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2019-06-21T14:13:41,518][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2019-06-21T14:13:41,583][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2019-06-21T14:19:08,402][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-06-21T14:19:08,593][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.7.1"}
+[2019-06-21T14:19:11,580][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2019-06-21T14:19:12,217][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x70755a4c run>"}
+[2019-06-21T14:19:12,298][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2019-06-21T14:19:13,073][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2019-06-21T14:20:01,196][INFO ][com.datastax.driver.core ] DataStax Java driver 3.6.0 for Apache Cassandra
+[2019-06-21T14:20:01,202][INFO ][com.datastax.driver.core.GuavaCompatibility] Detected Guava >= 19 in the classpath, using modern compatibility layer
+[2019-06-21T14:20:01,241][INFO ][com.datastax.driver.core.ClockFactory] Using native clock to generate timestamps.
+[2019-06-21T14:20:01,370][INFO ][com.datastax.driver.core.NettyUtil] Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+[2019-06-21T14:20:02,543][WARN ][com.datastax.driver.core.ReplicationStrategy$NetworkTopologyStrategy] Error while computing token map for keyspace radiushistory with datacenter datacenter1: could not achieve replication factor 3 (found 2 replicas only), check your keyspace replication settings.
+[2019-06-21T14:20:02,622][INFO ][com.datastax.driver.core.policies.DCAwareRoundRobinPolicy] Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+[2019-06-21T14:20:02,625][INFO ][com.datastax.driver.core.Cluster] New Cassandra host /172.30.100.205:9042 added
+[2019-06-21T14:20:02,626][INFO ][com.datastax.driver.core.Cluster] New Cassandra host dev-cassandra.ksg.int/172.30.100.206:9042 added
+[2019-06-21T14:20:03,029][ERROR][logstash.inputs.jdbc     ] Java::ComDatastaxDriverCoreExceptions::SyntaxError: line 0:-1 no viable alternative at input '<EOF>': 
+[2019-06-21T14:20:03,051][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComDatastaxDriverCoreExceptions::SyntaxError: line 0:-1 no viable alternative at input '<EOF>'>}
+[2019-06-21T14:20:20,408][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2019-06-21T14:20:20,661][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2019-06-21T14:20:20,726][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2019-06-21T14:21:50,443][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-06-21T14:21:50,482][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.7.1"}
+[2019-06-21T14:21:55,023][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2019-06-21T14:21:55,865][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x17f36c91 run>"}
+[2019-06-21T14:21:56,047][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2019-06-21T14:21:57,234][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2019-06-21T14:22:01,723][INFO ][com.datastax.driver.core ] DataStax Java driver 3.6.0 for Apache Cassandra
+[2019-06-21T14:22:01,732][INFO ][com.datastax.driver.core.GuavaCompatibility] Detected Guava >= 19 in the classpath, using modern compatibility layer
+[2019-06-21T14:22:01,787][INFO ][com.datastax.driver.core.ClockFactory] Using native clock to generate timestamps.
+[2019-06-21T14:22:01,986][INFO ][com.datastax.driver.core.NettyUtil] Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+[2019-06-21T14:22:03,340][WARN ][com.datastax.driver.core.ReplicationStrategy$NetworkTopologyStrategy] Error while computing token map for keyspace radiushistory with datacenter datacenter1: could not achieve replication factor 3 (found 2 replicas only), check your keyspace replication settings.
+[2019-06-21T14:22:03,462][INFO ][com.datastax.driver.core.policies.DCAwareRoundRobinPolicy] Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+[2019-06-21T14:22:03,467][INFO ][com.datastax.driver.core.Cluster] New Cassandra host dev-cassandra.ksg.int/172.30.100.205:9042 added
+[2019-06-21T14:22:03,468][INFO ][com.datastax.driver.core.Cluster] New Cassandra host /172.30.100.206:9042 added
+[2019-06-21T14:22:04,032][ERROR][logstash.inputs.jdbc     ] Java::ComDatastaxDriverCoreExceptions::SyntaxError: line 0:-1 no viable alternative at input '<EOF>': 
+[2019-06-21T14:22:04,075][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComDatastaxDriverCoreExceptions::SyntaxError: line 0:-1 no viable alternative at input '<EOF>'>}
+[2019-06-21T14:22:43,879][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2019-06-21T14:22:44,355][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x17f36c91 run>"}

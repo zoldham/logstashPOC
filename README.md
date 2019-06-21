@@ -1,0 +1,1 @@
+I used this driver: https://www.dbschema.com/cassandra-jdbc-driver.html
